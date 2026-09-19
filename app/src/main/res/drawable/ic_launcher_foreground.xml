@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:pivotX="54"
+        android:pivotY="54">
+        <!-- Water drop outer contour -->
+        <path
+            android:fillColor="#E0F7FA"
+            android:pathData="M54,22 C54,22 34,46 34,60 C34,71.05 42.95,80 54,80 C65.05,80 74,71.05 74,60 C74,46 54,22 54,22 Z" />
+        <!-- Inner water droplet highlight -->
+        <path
+            android:fillColor="#80DEEA"
+            android:pathData="M54,30 C54,30 40,49 40,60 C40,67.73 46.27,74 54,74 C61.73,74 68,67.73 68,60 C68,49 54,30 54,30 Z" />
+        <!-- Meter Dial ring -->
+        <path
+            android:fillColor="#007799"
+            android:pathData="M54,60m-13,0a13,13 0 1,0 26,0a13,13 0 1,0 -26,0" />
+        <!-- Digital Counter Window -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M46,55h16v6h-16z" />
+        <!-- Meter needle / gauge indicator -->
+        <path
+            android:strokeColor="#FFD54F"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:pathData="M54,63 L60,57" />
+        <!-- Center dial pin -->
+        <path
+            android:fillColor="#FFB300"
+            android:pathData="M54,63m-2,0a2,2 0 1,0 4,0a2,2 0 1,0 -4,0" />
+    </group>
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Adi NebriEd Water",
+  "description": "Production-ready, offline-first water reading and billing system for Adi NebriEd station with anti-tamper security, tiered tariffs, and reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
